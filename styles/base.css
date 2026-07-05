@@ -1,0 +1,288 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    background:#eef8eb;
+
+}
+
+.container{
+
+    width:90%;
+    max-width:1200px;
+
+    margin:20px auto;
+
+    background:white;
+
+    padding:15px;
+
+}
+
+.logo-area{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    margin-bottom:10px;
+
+}
+
+.logo-area img{
+
+    width:45px;
+
+}
+
+nav{
+
+    background:#222;
+
+}
+
+nav ul{
+
+    display:flex;
+
+    list-style:none;
+
+}
+
+nav li{
+
+    border-right:1px solid #444;
+
+}
+
+nav a{
+
+    display:block;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:12px 20px;
+
+}
+
+nav a:hover{
+
+    background:#444;
+
+}
+
+h1{
+
+    margin:20px 0;
+
+}
+
+.top-grid{
+
+    display:grid;
+
+    grid-template-columns:2fr 1fr;
+
+    gap:20px;
+
+}
+
+.card{
+
+    border:1px solid #ccc;
+
+}
+
+.card-title{
+
+    background:#222;
+
+    color:white;
+
+    text-align:center;
+
+    padding:10px;
+
+    font-weight:bold;
+
+}
+
+.card-content{
+
+    background:#ddd;
+
+    padding:20px;
+
+    min-height:240px;
+
+}
+
+.photo{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.photo img{
+
+    width:180px;
+
+    border-radius:5px;
+
+}
+
+.certificate{
+
+    margin-top:25px;
+
+    border:1px solid #ccc;
+
+}
+
+.section-title{
+
+    background:#222;
+
+    color:white;
+
+    text-align:center;
+
+    padding:10px;
+
+    font-weight:bold;
+
+}
+
+.buttons{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:15px;
+
+    padding:20px;
+
+}
+
+.buttons button{
+
+    padding:12px;
+
+    background:#ddd;
+
+    border:1px solid #999;
+
+    cursor:pointer;
+
+    font-weight:bold;
+
+}
+
+.courses{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:15px;
+
+    padding:0 20px 20px;
+
+}
+
+.course{
+
+    background:#ddd;
+
+    text-align:center;
+
+    padding:10px;
+
+    border:1px solid #999;
+
+}
+
+.credits{
+
+    text-align:center;
+
+    padding-bottom:20px;
+
+}
+
+footer{
+
+    margin-top:30px;
+
+    text-align:center;
+
+    padding:25px;
+
+    background:#eee;
+
+}
+
+.social{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+    margin-bottom:15px;
+
+}
+
+.social a{
+
+    text-decoration:none;
+
+    font-size:20px;
+
+    color:black;
+
+}
+
+@media (max-width:768px){
+
+.top-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.buttons{
+
+    grid-template-columns:1fr;
+
+}
+
+.courses{
+
+    grid-template-columns:1fr;
+
+}
+
+nav ul{
+
+    flex-direction:column;
+
+}
+
+}
