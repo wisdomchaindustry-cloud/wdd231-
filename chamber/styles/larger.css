@@ -1,0 +1,116 @@
+/* ==========================================
+   LAGOS CHAMBER OF COMMERCE
+   Larger Screen Styles
+   WDD 231
+========================================== */
+
+/* ===========================
+   TABLET (640px and above)
+=========================== */
+
+@media screen and (min-width:640px){
+
+    /* ---------- HEADER ---------- */
+
+    header{
+        padding:1rem 2rem;
+    }
+
+    .logo-container h1{
+        font-size:1.6rem;
+    }
+
+    .logo-container p{
+        font-size:.9rem;
+    }
+
+    /* ---------- NAVIGATION ---------- */
+
+    #menuButton{
+        display:none;
+    }
+
+    nav{
+        display:block;
+        position:static;
+        width:auto;
+        background:transparent;
+    }
+
+    nav ul{
+        display:flex;
+        align-items:center;
+        gap:.5rem;
+    }
+
+    nav li{
+        border:none;
+    }
+
+    nav a{
+        padding:.75rem 1rem;
+        border-radius:8px;
+        transition:background .3s;
+    }
+
+    nav a:hover{
+        background:rgba(255,255,255,.15);
+    }
+
+    /* ---------- DIRECTORY ---------- */
+
+    #directory{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    /* ---------- FOOTER ---------- */
+
+    footer{
+        display:grid;
+        grid-template-columns:repeat(3,1fr);
+        gap:2rem;
+        text-align:left;
+        align-items:start;
+    }
+
+    .social-links{
+        justify-content:flex-start;
+    }
+
+}
+
+/* ===========================
+   DESKTOP (1024px and above)
+=========================== */
+
+@media screen and (min-width:1024px){
+
+    main{
+        width:min(90%,1200px);
+    }
+
+    main h2{
+        font-size:2rem;
+    }
+
+    #directory{
+        grid-template-columns:repeat(3,1fr);
+    }
+
+    .member-card{
+
+        transition:
+            transform .3s,
+            box-shadow .3s;
+
+    }
+
+    .member-card:hover{
+
+        transform:translateY(-8px);
+
+        box-shadow:0 8px 20px rgba(0,0,0,.15);
+
+    }
+
+}

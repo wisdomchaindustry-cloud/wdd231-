@@ -1,0 +1,79 @@
+[
+    {
+        "id": 1,
+        "name": "Ibom Air",
+        "address": "Victor Attah International Airport, Uyo, Akwa Ibom",
+        "phone": "+234-700-426-6247",
+        "website": "https://www.ibomair.com",
+        "image": "images/ibomair.webp",
+        "membership": 3,
+        "email": "contact@ibomair.com",
+        "description": "Akwa Ibom State-owned airline providing safe, reliable, and comfortable domestic air travel across Nigeria."
+    },
+    {
+        "id": 2,
+        "name": "Ibom Plaza Shopping Complex",
+        "address": "Abak Road, Uyo, Akwa Ibom",
+        "phone": "+234-803-123-4567",
+        "website": "#",
+        "image": "images/ibomplaza.webp",
+        "membership": 2,
+        "email": "info@ibomplaza.com",
+        "description": "A vibrant shopping and commercial destination featuring retail stores, restaurants, and business services."
+    },
+    {
+        "id": 3,
+        "name": "Watbridge Hotels & Suites",
+        "address": "31 Atiku Abubakar Way, Uyo, Akwa Ibom",
+        "phone": "+234-802-987-6543",
+        "website": "#",
+        "image": "images/watbridge.webp",
+        "membership": 2,
+        "email": "reservations@watbridgehotels.com",
+        "description": "Modern hospitality services offering luxury accommodation, conference facilities, and premium guest experiences."
+    },
+    {
+        "id": 4,
+        "name": "Akwa Savings & Loans Ltd.",
+        "address": "Wellington Bassey Way, Uyo, Akwa Ibom",
+        "phone": "+234-803-456-7890",
+        "website": "#",
+        "image": "images/savingloan.webp",
+        "membership": 3,
+        "email": "info@akwasavings.com",
+        "description": "Providing savings, investment, and loan solutions to individuals and businesses throughout Akwa Ibom State."
+    },
+    {
+        "id": 5,
+        "name": "De Choice Mall",
+        "address": "Abak Road, Uyo, Akwa Ibom",
+        "phone": "+234-805-678-9012",
+        "website": "#",
+        "image": "images/dechoice.webp",
+        "membership": 1,
+        "email": "support@dechoicemall.com",
+        "description": "A one-stop shopping mall offering groceries, electronics, fashion, and household essentials."
+    },
+    {
+        "id": 6,
+        "name": "XL Medical Centre",
+        "address": "Wellington Bassey Way, Uyo, Akwa Ibom",
+        "phone": "+234-806-234-5678",
+        "website": "#",
+        "image": "images/xlmedical.webp",
+        "membership": 2,
+        "email": "info@xlmedicalcentre.com",
+        "description": "Comprehensive healthcare services including specialist consultations, diagnostics, emergency care, and pharmacy."
+    },
+    {
+        "id": 7,
+        "name": "Ibom Tropicana Entertainment Centre",
+        "address": "Udo Udoma Avenue, Uyo, Akwa Ibom",
+        "phone": "+234-807-890-1234",
+        "website": "#",
+        "image": "images/ibomtroicana.webp",
+        "membership": 3,
+        "email": "info@ibomtropicana.com",
+        "description": "A premier entertainment destination featuring cinemas, shopping, dining, and event facilities for families and visitors."
+    }
+]

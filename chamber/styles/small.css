@@ -1,0 +1,266 @@
+/* ==========================================
+   LAGOS CHAMBER OF COMMERCE
+   Mobile First Stylesheet
+   WDD 231
+========================================== */
+
+/* ---------- GOOGLE FONT VARIABLES ---------- */
+
+:root{
+    --primary:#0b3c5d;
+    --secondary:#328cc1;
+    --accent:#d9b310;
+    --light:#f7f9fb;
+    --dark:#222222;
+    --white:#ffffff;
+    --border:#dddddd;
+    --radius:10px;
+    --shadow:0 4px 12px rgba(0,0,0,.12);
+
+    --heading-font:"Poppins",sans-serif;
+    --body-font:"Open Sans",sans-serif;
+}
+
+/* ---------- GLOBAL ---------- */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:var(--body-font);
+    background:var(--light);
+    color:var(--dark);
+    line-height:1.6;
+}
+
+img{
+    display:block;
+    max-width:100%;
+    height:auto;
+}
+
+a{
+    text-decoration:none;
+}
+
+/* ---------- HEADER ---------- */
+
+header{
+    background:var(--primary);
+    color:var(--white);
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:1rem;
+}
+
+.logo-container{
+    display:flex;
+    align-items:center;
+    gap:1rem;
+}
+
+.logo-container h1{
+    font-family:var(--heading-font);
+    font-size:1.2rem;
+}
+
+.logo-container p{
+    font-size:.85rem;
+}
+
+/* ---------- MENU BUTTON ---------- */
+
+#menuButton{
+    background:none;
+    border:none;
+    color:white;
+    font-size:2rem;
+    cursor:pointer;
+}
+
+/* ---------- NAVIGATION ---------- */
+
+nav{
+    display:none;
+
+    position:absolute;
+    top:80px;
+    left:0;
+
+    width:100%;
+
+    background:var(--primary);
+}
+
+nav.open{
+    display:block;
+}
+
+nav ul{
+    list-style:none;
+}
+
+nav li{
+    border-top:1px solid rgba(255,255,255,.15);
+}
+
+nav a{
+    display:block;
+    color:white;
+    padding:1rem;
+}
+
+nav a:hover{
+    background:var(--secondary);
+}
+
+.active{
+    background:var(--accent);
+    color:black;
+    font-weight:600;
+}
+
+/* ---------- MAIN ---------- */
+
+main{
+    width:min(95%,1200px);
+    margin:auto;
+    padding:2rem 0;
+}
+
+main h2{
+    text-align:center;
+    font-family:var(--heading-font);
+    color:var(--primary);
+    margin-bottom:2rem;
+}
+
+/* ---------- DIRECTORY BUTTONS ---------- */
+
+.directory-controls{
+    display:flex;
+    justify-content:center;
+    gap:1rem;
+    margin-bottom:2rem;
+}
+
+.directory-controls button{
+    padding:.8rem 1.5rem;
+    border:none;
+    border-radius:6px;
+    background:var(--primary);
+    color:white;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.directory-controls button:hover{
+    background:var(--secondary);
+}
+
+/* ---------- DIRECTORY ---------- */
+
+#directory{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:1.5rem;
+}
+
+/* ---------- MEMBER CARD ---------- */
+
+.member-card{
+    background:white;
+    border-radius:var(--radius);
+    overflow:hidden;
+    box-shadow:var(--shadow);
+}
+
+.member-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.member-content{
+    padding:1rem;
+}
+
+.member-content h3{
+    font-family:var(--heading-font);
+    color:var(--primary);
+    margin-bottom:.5rem;
+}
+
+.member-content p{
+    margin-bottom:.5rem;
+    font-size:.95rem;
+}
+
+.member-content a{
+    color:var(--secondary);
+    font-weight:bold;
+}
+
+/* ---------- LIST VIEW ---------- */
+
+.list-view{
+    display:flex !important;
+    flex-direction:column;
+}
+
+.list-view .member-card{
+    display:grid;
+    grid-template-columns:120px 1fr;
+    align-items:center;
+}
+
+.list-view img{
+    height:120px;
+}
+
+/* ---------- FOOTER ---------- */
+
+footer{
+    background:var(--primary);
+    color:white;
+    margin-top:3rem;
+    padding:2rem 1rem;
+    text-align:center;
+}
+
+footer section{
+    margin-bottom:1.5rem;
+}
+
+footer h3{
+    font-family:var(--heading-font);
+    margin-bottom:.5rem;
+}
+
+.social-links{
+    display:flex;
+    justify-content:center;
+    gap:1rem;
+}
+
+.social-links a{
+    color:white;
+}
+
+.social-links a:hover{
+    color:var(--accent);
+}
+
+/* ---------- ACCESSIBILITY ---------- */
+
+button:focus,
+a:focus{
+    outline:3px solid var(--accent);
+    outline-offset:3px;
+}
