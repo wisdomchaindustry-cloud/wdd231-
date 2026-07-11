@@ -1,5 +1,5 @@
 /* ==========================================
-   LAGOS CHAMBER OF COMMERCE
+   UYO CHAMBER OF COMMERCE
    Mobile First Stylesheet
    WDD 231
 ========================================== */
@@ -9,6 +9,7 @@
 :root{
     --primary:#0b3c5d;
     --secondary:#328cc1;
+    --link:#1c6690;
     --accent:#d9b310;
     --light:#f7f9fb;
     --dark:#222222;
@@ -65,9 +66,11 @@ header{
     gap:1rem;
 }
 
-.logo-container h1{
+.logo-container .brand-name{
     font-family:var(--heading-font);
     font-size:1.2rem;
+    font-weight:600;
+    margin:0;
 }
 
 .logo-container p{
@@ -134,7 +137,7 @@ main{
     padding:2rem 0;
 }
 
-main h2{
+main h1{
     text-align:center;
     font-family:var(--heading-font);
     color:var(--primary);
@@ -203,7 +206,7 @@ main h2{
 }
 
 .member-content a{
-    color:var(--secondary);
+    color:var(--link);
     font-weight:bold;
 }
 
@@ -215,13 +218,11 @@ main h2{
 }
 
 .list-view .member-card{
-    display:grid;
-    grid-template-columns:120px 1fr;
-    align-items:center;
+    display:block;
 }
 
 .list-view img{
-    height:120px;
+    display:none;
 }
 
 /* ---------- FOOTER ---------- */

@@ -1,5 +1,5 @@
 // ==========================================
-// LAGOS CHAMBER OF COMMERCE
+// UYO CHAMBER OF COMMERCE
 // Mobile Navigation
 // WDD 231
 // ==========================================

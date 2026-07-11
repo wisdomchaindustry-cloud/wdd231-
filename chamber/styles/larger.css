@@ -1,5 +1,5 @@
 /* ==========================================
-   LAGOS CHAMBER OF COMMERCE
+   UYO CHAMBER OF COMMERCE
    Larger Screen Styles
    WDD 231
 ========================================== */
@@ -16,7 +16,7 @@
         padding:1rem 2rem;
     }
 
-    .logo-container h1{
+    .logo-container .brand-name{
         font-size:1.6rem;
     }
 
@@ -89,7 +89,7 @@
         width:min(90%,1200px);
     }
 
-    main h2{
+    main h1{
         font-size:2rem;
     }
 
