@@ -65,9 +65,10 @@ header{
     gap:1rem;
 }
 
-.logo-container h1{
+.logo-container .site-title{
     font-family:var(--heading-font);
     font-size:1.2rem;
+    font-weight:700;
 }
 
 .logo-container p{
@@ -255,8 +256,6 @@ footer h3{
 
 .social-links a:hover{
     color:var(--accent);
-
-
 }
 
 /* ---------- HERO ---------- */
@@ -288,7 +287,7 @@ footer h3{
     color:var(--white);
 }
 
-.hero-content h2{
+.hero-content h1{
     font-family:var(--heading-font);
     font-size:1.4rem;
     margin-bottom:.75rem;
@@ -463,4 +462,3 @@ a:focus{
     outline:3px solid var(--accent);
     outline-offset:3px;
 }
-
