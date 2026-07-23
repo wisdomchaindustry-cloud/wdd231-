@@ -1,5 +1,5 @@
 /* ==========================================
-   UYO CHAMBER OF COMMERCE
+   LAGOS CHAMBER OF COMMERCE
    Larger Screen Styles
    WDD 231
 ========================================== */
@@ -16,7 +16,7 @@
         padding:1rem 2rem;
     }
 
-    .logo-container .brand-name{
+    .logo-container h1{
         font-size:1.6rem;
     }
 
@@ -63,6 +63,31 @@
         grid-template-columns:repeat(2,1fr);
     }
 
+    /* ---------- HERO ---------- */
+
+    .hero-image{
+        height:400px;
+    }
+
+    .hero-content h2{
+        font-size:2rem;
+    }
+
+    .hero-content p{
+        font-size:1.1rem;
+        max-width:45ch;
+    }
+
+    /* ---------- CURRENT EVENTS / SPOTLIGHTS ---------- */
+
+    .events-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .spotlight-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
     /* ---------- FOOTER ---------- */
 
     footer{
@@ -89,12 +114,24 @@
         width:min(90%,1200px);
     }
 
-    main h1{
+    main h2{
         font-size:2rem;
     }
 
     #directory{
         grid-template-columns:repeat(3,1fr);
+    }
+
+    .events-grid{
+        grid-template-columns:repeat(3,1fr);
+    }
+
+    .spotlight-grid{
+        grid-template-columns:repeat(3,1fr);
+    }
+
+    .hero-image{
+        height:500px;
     }
 
     .member-card{

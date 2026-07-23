@@ -83,7 +83,7 @@ const displayMembers = (members) =>{
 
                 <p>
                     <strong>Website:</strong><br>
-                    <a
+                    
                         href="${member.website}"
                         target="_blank"
                         rel="noopener noreferrer">
